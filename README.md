@@ -41,4 +41,29 @@ EventEase is a modern, real-time Android application designed to help users mana
 ## 🚀 Installation & Setup
 
 1.  **Clone the Repo:**
-    
+    ```bash
+    git clone https://github.com/yourusername/Eventease.git
+    ```
+2.  **Firebase Configuration:**
+    *   Go to [Firebase Console](https://console.firebase.google.com/).
+    *   Create a project and register the app with package name `com.example.eventease`.
+    *   Download `google-services.json` and place it in the `app/` directory of the project.
+    *   Enable **Email/Password Auth** and **Cloud Firestore** in the Firebase settings.
+3.  **Build & Run:**
+    *   Open the project in **Android Studio**.
+    *   Sync Gradle and click the **Run** button to install on an emulator or physical device.
+
+---
+
+## 👨‍💻 About the Developer
+
+**Heshara Sandeepa**  
+**Student No:** 2023t01866  
+
+Developed as a project to demonstrate proficiency in Android application architecture, UI design, and cloud-based backend integration.
+
+---
+
+## 📄 License
+
+Copyright © 2024 EventEase. This project is licensed under the **MIT License**.
