@@ -1,60 +1,44 @@
-EventEase - Smart Event Management Application
-EventEase is a modern and user-friendly Android application designed to help users efficiently organize, track, and manage their daily activities and professional events. Powered by Firebase Firestore, it ensures real-time data synchronization and a seamless user experience.
+# EventEase 📅
 
-👤 Developer Information
-Developer Name: P.H.H.S Jayasingha
+EventEase is a modern, real-time Android application designed to help users manage their schedules, meetings, and personal events with ease. Built with **Java** and integrated with **Google Firebase**, the app provides a seamless experience for tracking event statuses and ensuring productivity.
 
-Institution: University of Colombo, Faculty of Technology
+---
 
-🚀 Features
-Real-time Event Tracking: Manage your schedule with live updates powered by Firebase.
+## 🌟 Key Features
 
-Event Management: Add, view, and organize events effortlessly.
+### 🔐 Secure User Access
+*   **Firebase Authentication:** Secure Sign-Up and Login using Email and Password.
+*   **Persistent Sessions:** Smart Splash Screen logic that keeps you logged in.
+*   **User Profiles:** View your account details and manage your identity within the app.
 
-User-Centric UI: Clean and intuitive interface for enhanced usability.
+### 📝 Smart Event Management
+*   **Real-time Database:** Powered by **Cloud Firestore**. Add, update, or delete events and see changes instantly across devices.
+*   **Intuitive Input:** 
+    *   **Date Picker:** Calendar view for easy date selection.
+    *   **Interactive Clock:** A matching analog-style Time Picker for precise scheduling.
+*   **Status Indicators:** Track events with statuses like **Pending**, **Accepted**, or **Declined**, featuring dynamic color-coding.
+*   **Confirmation Dialogs:** Safety prompts for sensitive actions like deleting events or signing out.
 
-Secure Data Storage: Reliable cloud storage using Google Firebase services.
+### 🎨 Premium UI/UX
+*   **Material Design 3:** A clean, professional look following modern Android standards.
+*   **Popup Menu Navigation:** An organized top-right menu for User and Developer information, keeping the main dashboard focused.
+*   **Optimized Lists:** Smooth scrolling and efficient data rendering using `RecyclerView` and `CardView`.
 
-🛠 Tech Stack
-Language: Java
+---
 
-Platform: Android Studio
+## 🛠 Tech Stack
 
-Database: Firebase Cloud Firestore
+*   **Language:** Java
+*   **Development Environment:** Android Studio
+*   **Backend & Cloud:** 
+    *   Firebase Authentication (User Management)
+    *   Cloud Firestore (Real-time NoSQL Database)
+*   **UI Framework:** Material Design Components
+*   **Connectivity:** Real-time synchronization via Internet & Network State API
 
-Version Control: Git & GitHub
+---
 
-📸 App Preview
-(Tip: Once you have screenshots, you can add them to your app/src/main/res/drawable folder and link them here)
+## 🚀 Installation & Setup
 
-🛠 Setup and Installation
-To run this project locally, follow these steps:
-
-Clone the repository:
-
-Bash
-git clone https://github.com/heshara2003/EventEase-Mobile-Application.git
-Open in Android Studio:
-
-Open Android Studio and select Open.
-
-Navigate to the cloned folder and click OK.
-
-Firebase Configuration:
-
-Create a new project in the Firebase Console.
-
-Add an Android App to your Firebase project.
-
-Download the google-services.json file and place it in the app/ directory of your project.
-
-Build and Run:
-
-Sync the project with Gradle files.
-
-Run the application on an emulator or a physical device.
-
-📝 Recent Activity
-Initial Release: Project setup with Firebase integration and basic UI layouts.
-
-© 2026 P.H.H.S Jayasingha | University of Colombo Faculty of Technology
+1.  **Clone the Repo:**
+    
